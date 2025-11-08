@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+
+# FastF1 cache
+cache/
+
+# Streamlit cache
+.streamlit/
+
+# System
+.DS_Store
