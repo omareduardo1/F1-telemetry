@@ -2,11 +2,19 @@ import streamlit as st
 import fastf1
 import pandas as pd
 import numpy as np
+import os
+from pathlib import Path
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 st.set_page_config(page_title="🏎️ F1 Telemetry — Compare", layout="wide")
-fastf1.Cache.enable_cache("cache")
+
+# crea una cache accanto a web/, a prescindere dalla working dir
+CACHE_DIR = Path(__file__).resolve().parent / ".." / "cache"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+import fastf1
+fastf1.Cache.enable_cache(str(CACHE_DIR))
 
 # -------------------- Utils --------------------
 def fmt_laptime(x) -> str:
