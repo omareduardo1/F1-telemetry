@@ -11,7 +11,7 @@ The project was born from a passion for race engineering and technical analysis 
 ![Gear Plot](assets/gear_plot.png)
 ![Delta Time Plot](assets/delta_time_plot.png)
 
-Link to Stremlit for try to use the F1-telemetry - Compare 👉 https://f1-telemetry-etvotq2zpj3uwxjwed6qwb.streamlit.app
+### Link to Stremlit for try to use the F1-telemetry - Compare 👉 https://f1-telemetry-etvotq2zpj3uwxjwed6qwb.streamlit.app
 ---
 
 ## 🚀 Main Features
