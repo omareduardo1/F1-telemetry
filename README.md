@@ -7,6 +7,9 @@ Developed in **Python + Streamlit**, it leverages the official **[FastF1](https:
 
 The project was born from a passion for race engineering and technical analysis — combining **engineering, artificial intelligence, and interactive design** to deliver an experience similar to professional F1 telemetry systems used by real teams.
 
+![Telemetry Plot](assets/telemetry_plot.png)
+![Gear Plot](assets/gear_plot.png)
+![Delta Time Plot](assets/delta_time_plot.png)
 ---
 
 ## 🚀 Main Features
